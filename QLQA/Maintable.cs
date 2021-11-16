@@ -55,5 +55,13 @@ namespace QLQA
             f.ShowDialog();
             this.Show();
         }
+
+        private void bànĂnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Table f = new Table();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

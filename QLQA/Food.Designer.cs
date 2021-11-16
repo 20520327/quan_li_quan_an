@@ -66,11 +66,7 @@ namespace QLQA
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.list = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.idcategory = new System.Windows.Forms.Label();
@@ -78,6 +74,9 @@ namespace QLQA
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.namecategory = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.note = new System.Windows.Forms.Label();
             this.tcFood.SuspendLayout();
             this.tabfood.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -95,11 +94,11 @@ namespace QLQA
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel10.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tcFood
@@ -189,6 +188,7 @@ namespace QLQA
             // 
             // tabLIST
             // 
+            this.tabLIST.Controls.Add(this.note);
             this.tabLIST.Controls.Add(this.panel10);
             this.tabLIST.Controls.Add(this.panel9);
             this.tabLIST.Controls.Add(this.panel8);
@@ -447,30 +447,12 @@ namespace QLQA
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.textBox3);
-            this.panel9.Controls.Add(this.button5);
             this.panel9.Controls.Add(this.list);
             this.panel9.Controls.Add(this.pictureBox2);
             this.panel9.Location = new System.Drawing.Point(622, 6);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(309, 100);
+            this.panel9.Size = new System.Drawing.Size(309, 60);
             this.panel9.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(3, 66);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(215, 29);
-            this.textBox3.TabIndex = 3;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(224, 62);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(82, 35);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Tìm kiếm";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // list
             // 
@@ -481,26 +463,6 @@ namespace QLQA
             this.list.Size = new System.Drawing.Size(98, 25);
             this.list.TabIndex = 1;
             this.list.Text = "Danh mục";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QLQA.Properties.Resources.diet;
-            this.pictureBox1.Location = new System.Drawing.Point(118, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::QLQA.Properties.Resources.menu__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(118, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // tableLayoutPanel3
             // 
@@ -577,6 +539,37 @@ namespace QLQA
             this.namecategory.TabIndex = 1;
             this.namecategory.Text = "Tên danh mục: ";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QLQA.Properties.Resources.diet;
+            this.pictureBox1.Location = new System.Drawing.Point(118, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::QLQA.Properties.Resources.menu__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(118, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // note
+            // 
+            this.note.AutoSize = true;
+            this.note.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.note.ForeColor = System.Drawing.Color.Tomato;
+            this.note.Location = new System.Drawing.Point(627, 314);
+            this.note.Name = "note";
+            this.note.Size = new System.Drawing.Size(290, 75);
+            this.note.TabIndex = 10;
+            this.note.Text = "*Không thể xoá ID danh mục nếu \r\nchưa xoá hết món ăn trong danh \r\nmục đó.*\r\n";
+            // 
             // Food
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -597,6 +590,7 @@ namespace QLQA
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tabLIST.ResumeLayout(false);
+            this.tabLIST.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -612,13 +606,13 @@ namespace QLQA
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -655,8 +649,6 @@ namespace QLQA
         private System.Windows.Forms.Button delete;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label list;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel8;
@@ -673,5 +665,6 @@ namespace QLQA
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label idcategory;
+        private System.Windows.Forms.Label note;
     }
 }

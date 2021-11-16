@@ -251,6 +251,7 @@ namespace QLQA
             this.bànĂnToolStripMenuItem.Name = "bànĂnToolStripMenuItem";
             this.bànĂnToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.bànĂnToolStripMenuItem.Text = "Bàn ăn";
+            this.bànĂnToolStripMenuItem.Click += new System.EventHandler(this.bànĂnToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 

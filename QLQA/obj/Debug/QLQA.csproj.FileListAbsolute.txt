@@ -13,3 +13,4 @@ C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQ
 C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.Account_inf.resources
 C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.admin.resources
 C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.Food.resources
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.Table.resources

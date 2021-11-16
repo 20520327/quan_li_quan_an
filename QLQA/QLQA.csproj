@@ -90,6 +90,12 @@
     <Compile Include="Sign_up.Designer.cs">
       <DependentUpon>Sign_up.cs</DependentUpon>
     </Compile>
+    <Compile Include="Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table.Designer.cs">
+      <DependentUpon>Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="TransolutionPanel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </Compile>
     <EmbeddedResource Include="Sign_up.resx">
       <DependentUpon>Sign_up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table.resx">
+      <DependentUpon>Table.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -169,6 +178,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\diet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dining-table.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
