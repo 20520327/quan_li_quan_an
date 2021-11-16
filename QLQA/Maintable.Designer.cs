@@ -37,18 +37,20 @@ namespace QLQA
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.orderlable = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.price = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.Swaptable = new System.Windows.Forms.Button();
             this.Thanhtoan = new System.Windows.Forms.Button();
+            this.Swaptable = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.price = new System.Windows.Forms.Label();
+            this.quảnLíMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bànĂnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -61,7 +63,9 @@ namespace QLQA
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.adminToolStripMenuItem,
-            this.tàiKhoảnToolStripMenuItem});
+            this.tàiKhoảnToolStripMenuItem,
+            this.quảnLíMenuToolStripMenuItem,
+            this.bànĂnToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(909, 24);
@@ -87,14 +91,14 @@ namespace QLQA
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
             this.thôngTinTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.thôngTinTàiKhoảnToolStripMenuItem_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click_1);
             // 
@@ -119,6 +123,42 @@ namespace QLQA
             this.panel2.Size = new System.Drawing.Size(383, 460);
             this.panel2.TabIndex = 2;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(8, 94);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(221, 32);
+            this.comboBox2.TabIndex = 6;
+            // 
+            // listView1
+            // 
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(8, 133);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(372, 324);
+            this.listView1.TabIndex = 3;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(263, 88);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 39);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Thêm món";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.Location = new System.Drawing.Point(301, 53);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(44, 26);
+            this.numericUpDown1.TabIndex = 4;
+            // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -138,33 +178,6 @@ namespace QLQA
             this.orderlable.TabIndex = 1;
             this.orderlable.Text = "ORDER";
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(301, 53);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(44, 26);
-            this.numericUpDown1.TabIndex = 4;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(263, 88);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 39);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Thêm món";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // listView1
-            // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(8, 133);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(372, 324);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.Thanhtoan);
@@ -177,43 +190,15 @@ namespace QLQA
             this.panel3.Size = new System.Drawing.Size(383, 81);
             this.panel3.TabIndex = 6;
             // 
-            // comboBox2
+            // Thanhtoan
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(8, 94);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(221, 32);
-            this.comboBox2.TabIndex = 6;
-            // 
-            // price
-            // 
-            this.price.AutoSize = true;
-            this.price.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price.Location = new System.Drawing.Point(3, 0);
-            this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(139, 32);
-            this.price.TabIndex = 0;
-            this.price.Text = "Tổng tiền: ";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(133, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(247, 29);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(8, 43);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 35);
-            this.comboBox3.TabIndex = 2;
+            this.Thanhtoan.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Thanhtoan.Location = new System.Drawing.Point(280, 42);
+            this.Thanhtoan.Name = "Thanhtoan";
+            this.Thanhtoan.Size = new System.Drawing.Size(100, 36);
+            this.Thanhtoan.TabIndex = 4;
+            this.Thanhtoan.Text = "Thanh toán";
+            this.Thanhtoan.UseVisualStyleBackColor = true;
             // 
             // Swaptable
             // 
@@ -225,15 +210,47 @@ namespace QLQA
             this.Swaptable.Text = "Chuyển bàn";
             this.Swaptable.UseVisualStyleBackColor = true;
             // 
-            // Thanhtoan
+            // comboBox3
             // 
-            this.Thanhtoan.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Thanhtoan.Location = new System.Drawing.Point(280, 42);
-            this.Thanhtoan.Name = "Thanhtoan";
-            this.Thanhtoan.Size = new System.Drawing.Size(100, 36);
-            this.Thanhtoan.TabIndex = 4;
-            this.Thanhtoan.Text = "Thanh toán";
-            this.Thanhtoan.UseVisualStyleBackColor = true;
+            this.comboBox3.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(8, 43);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 35);
+            this.comboBox3.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(133, 2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(247, 29);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // price
+            // 
+            this.price.AutoSize = true;
+            this.price.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price.Location = new System.Drawing.Point(3, 0);
+            this.price.Name = "price";
+            this.price.Size = new System.Drawing.Size(139, 32);
+            this.price.TabIndex = 0;
+            this.price.Text = "Tổng tiền: ";
+            // 
+            // quảnLíMenuToolStripMenuItem
+            // 
+            this.quảnLíMenuToolStripMenuItem.Name = "quảnLíMenuToolStripMenuItem";
+            this.quảnLíMenuToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.quảnLíMenuToolStripMenuItem.Text = "Món ăn";
+            this.quảnLíMenuToolStripMenuItem.Click += new System.EventHandler(this.quảnLíMenuToolStripMenuItem_Click);
+            // 
+            // bànĂnToolStripMenuItem
+            // 
+            this.bànĂnToolStripMenuItem.Name = "bànĂnToolStripMenuItem";
+            this.bànĂnToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.bànĂnToolStripMenuItem.Text = "Bàn ăn";
             // 
             // pictureBox1
             // 
@@ -298,5 +315,7 @@ namespace QLQA
         private System.Windows.Forms.Button Swaptable;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ToolStripMenuItem quảnLíMenuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bànĂnToolStripMenuItem;
     }
 }

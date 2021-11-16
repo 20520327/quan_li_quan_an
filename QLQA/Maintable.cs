@@ -37,12 +37,20 @@ namespace QLQA
             admin f = new admin();
             this.Hide();
             f.ShowDialog();
-            this.Show();
+            this.Show();    
         }
 
         private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Account_inf f = new Account_inf();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void quảnLíMenuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Food f = new Food();
             this.Hide();
             f.ShowDialog();
             this.Show();

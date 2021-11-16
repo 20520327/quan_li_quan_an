@@ -57,7 +57,7 @@ namespace QLQA
             this.panel1.Controls.Add(this.Dangnhap);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(452, 227);
+            this.panel1.Size = new System.Drawing.Size(452, 235);
             this.panel1.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -121,7 +121,7 @@ namespace QLQA
             this.Signup.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Signup.Location = new System.Drawing.Point(4, 195);
             this.Signup.Name = "Signup";
-            this.Signup.Size = new System.Drawing.Size(103, 26);
+            this.Signup.Size = new System.Drawing.Size(103, 32);
             this.Signup.TabIndex = 5;
             this.Signup.Text = "ĐĂNG KÝ";
             this.Signup.UseVisualStyleBackColor = true;
@@ -143,7 +143,7 @@ namespace QLQA
             this.Thoat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Thoat.Location = new System.Drawing.Point(198, 195);
             this.Thoat.Name = "Thoat";
-            this.Thoat.Size = new System.Drawing.Size(114, 26);
+            this.Thoat.Size = new System.Drawing.Size(114, 32);
             this.Thoat.TabIndex = 3;
             this.Thoat.Text = "THOÁT";
             this.Thoat.UseVisualStyleBackColor = true;
@@ -154,7 +154,7 @@ namespace QLQA
             this.Dangnhap.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dangnhap.Location = new System.Drawing.Point(318, 195);
             this.Dangnhap.Name = "Dangnhap";
-            this.Dangnhap.Size = new System.Drawing.Size(128, 26);
+            this.Dangnhap.Size = new System.Drawing.Size(128, 32);
             this.Dangnhap.TabIndex = 2;
             this.Dangnhap.Text = "ĐĂNG NHẬP";
             this.Dangnhap.UseVisualStyleBackColor = true;
