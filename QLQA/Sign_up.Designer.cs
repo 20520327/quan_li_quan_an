@@ -75,13 +75,13 @@ namespace QLQA
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(439, 44);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(439, 47);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // nametext
             // 
             this.nametext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nametext.Location = new System.Drawing.Point(3, 18);
+            this.nametext.Location = new System.Drawing.Point(3, 21);
             this.nametext.Name = "nametext";
             this.nametext.Size = new System.Drawing.Size(433, 24);
             this.nametext.TabIndex = 0;
@@ -92,7 +92,7 @@ namespace QLQA
             this.hoten.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hoten.Location = new System.Drawing.Point(3, 0);
             this.hoten.Name = "hoten";
-            this.hoten.Size = new System.Drawing.Size(71, 15);
+            this.hoten.Size = new System.Drawing.Size(71, 17);
             this.hoten.TabIndex = 1;
             this.hoten.Text = "Họ và tên: ";
             // 
@@ -102,19 +102,19 @@ namespace QLQA
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.usertext, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.taikhoan, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 53);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 56);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(439, 44);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(439, 48);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // usertext
             // 
             this.usertext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usertext.Location = new System.Drawing.Point(3, 18);
+            this.usertext.Location = new System.Drawing.Point(3, 22);
             this.usertext.Name = "usertext";
             this.usertext.Size = new System.Drawing.Size(433, 24);
             this.usertext.TabIndex = 0;
@@ -125,15 +125,15 @@ namespace QLQA
             this.taikhoan.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taikhoan.Location = new System.Drawing.Point(3, 0);
             this.taikhoan.Name = "taikhoan";
-            this.taikhoan.Size = new System.Drawing.Size(92, 15);
+            this.taikhoan.Size = new System.Drawing.Size(92, 17);
             this.taikhoan.TabIndex = 1;
             this.taikhoan.Text = "Tên tài khoản: ";
             // 
             // Done
             // 
-            this.Done.BackColor = System.Drawing.Color.Chartreuse;
+            this.Done.BackColor = System.Drawing.Color.LightGreen;
             this.Done.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Done.Location = new System.Drawing.Point(340, 344);
+            this.Done.Location = new System.Drawing.Point(343, 378);
             this.Done.Name = "Done";
             this.Done.Size = new System.Drawing.Size(101, 44);
             this.Done.TabIndex = 4;
@@ -143,9 +143,10 @@ namespace QLQA
             // 
             // exit
             // 
-            this.exit.BackColor = System.Drawing.Color.OrangeRed;
+            this.exit.BackColor = System.Drawing.Color.Tomato;
+            this.exit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.exit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit.Location = new System.Drawing.Point(3, 344);
+            this.exit.Location = new System.Drawing.Point(3, 378);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(100, 44);
             this.exit.TabIndex = 5;
@@ -166,7 +167,7 @@ namespace QLQA
             this.panel1.Controls.Add(this.Done);
             this.panel1.Location = new System.Drawing.Point(12, 99);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(444, 394);
+            this.panel1.Size = new System.Drawing.Size(444, 427);
             this.panel1.TabIndex = 6;
             // 
             // checkBox1
@@ -174,7 +175,7 @@ namespace QLQA
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.checkBox1.Location = new System.Drawing.Point(3, 298);
+            this.checkBox1.Location = new System.Drawing.Point(3, 332);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(440, 40);
             this.checkBox1.TabIndex = 10;
@@ -187,19 +188,19 @@ namespace QLQA
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.Controls.Add(this.Emailtext, 0, 1);
             this.tableLayoutPanel6.Controls.Add(this.Email, 0, 0);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 248);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 274);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(439, 44);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(439, 52);
             this.tableLayoutPanel6.TabIndex = 9;
             // 
             // Emailtext
             // 
             this.Emailtext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Emailtext.Location = new System.Drawing.Point(3, 18);
+            this.Emailtext.Location = new System.Drawing.Point(3, 26);
             this.Emailtext.Name = "Emailtext";
             this.Emailtext.Size = new System.Drawing.Size(433, 24);
             this.Emailtext.TabIndex = 0;
@@ -210,7 +211,7 @@ namespace QLQA
             this.Email.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email.Location = new System.Drawing.Point(3, 0);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(97, 15);
+            this.Email.Size = new System.Drawing.Size(97, 17);
             this.Email.TabIndex = 1;
             this.Email.Text = "Email (nếu có): ";
             // 
@@ -220,19 +221,19 @@ namespace QLQA
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.Controls.Add(this.Phonetext, 0, 1);
             this.tableLayoutPanel5.Controls.Add(this.Phone, 0, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 200);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 216);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(439, 44);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(439, 52);
             this.tableLayoutPanel5.TabIndex = 8;
             // 
             // Phonetext
             // 
             this.Phonetext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Phonetext.Location = new System.Drawing.Point(3, 18);
+            this.Phonetext.Location = new System.Drawing.Point(3, 26);
             this.Phonetext.Name = "Phonetext";
             this.Phonetext.Size = new System.Drawing.Size(433, 24);
             this.Phonetext.TabIndex = 0;
@@ -243,7 +244,7 @@ namespace QLQA
             this.Phone.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Phone.Location = new System.Drawing.Point(3, 0);
             this.Phone.Name = "Phone";
-            this.Phone.Size = new System.Drawing.Size(92, 15);
+            this.Phone.Size = new System.Drawing.Size(92, 17);
             this.Phone.TabIndex = 1;
             this.Phone.Text = "Số điện thoại: ";
             // 
@@ -253,18 +254,18 @@ namespace QLQA
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Controls.Add(this.Confirmpasstext, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.Confirmpass, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 153);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 163);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(439, 44);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(439, 47);
             this.tableLayoutPanel4.TabIndex = 7;
             // 
             // Confirmpasstext
             // 
             this.Confirmpasstext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Confirmpasstext.Location = new System.Drawing.Point(3, 18);
+            this.Confirmpasstext.Location = new System.Drawing.Point(3, 21);
             this.Confirmpasstext.Name = "Confirmpasstext";
             this.Confirmpasstext.Size = new System.Drawing.Size(433, 24);
             this.Confirmpasstext.TabIndex = 0;
@@ -276,7 +277,7 @@ namespace QLQA
             this.Confirmpass.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Confirmpass.Location = new System.Drawing.Point(3, 0);
             this.Confirmpass.Name = "Confirmpass";
-            this.Confirmpass.Size = new System.Drawing.Size(121, 15);
+            this.Confirmpass.Size = new System.Drawing.Size(121, 17);
             this.Confirmpass.TabIndex = 1;
             this.Confirmpass.Text = "Nhập lại mật khẩu: ";
             // 
@@ -286,18 +287,18 @@ namespace QLQA
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.passtext, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.pass, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 103);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 110);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(439, 44);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(439, 47);
             this.tableLayoutPanel3.TabIndex = 6;
             // 
             // passtext
             // 
             this.passtext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passtext.Location = new System.Drawing.Point(3, 18);
+            this.passtext.Location = new System.Drawing.Point(3, 21);
             this.passtext.Name = "passtext";
             this.passtext.Size = new System.Drawing.Size(433, 24);
             this.passtext.TabIndex = 0;
@@ -309,7 +310,7 @@ namespace QLQA
             this.pass.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pass.Location = new System.Drawing.Point(3, 0);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(69, 15);
+            this.pass.Size = new System.Drawing.Size(69, 17);
             this.pass.TabIndex = 1;
             this.pass.Text = "Mật khẩu: ";
             // 
@@ -325,9 +326,11 @@ namespace QLQA
             // 
             // Sign_up
             // 
+            this.AcceptButton = this.Done;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 499);
+            this.CancelButton = this.exit;
+            this.ClientSize = new System.Drawing.Size(463, 529);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);

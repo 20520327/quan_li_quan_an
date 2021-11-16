@@ -17,9 +17,35 @@ namespace QLQA
             InitializeComponent();
         }
 
+
+
         private void đăngXuấtToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void Maintable_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có thật sự muốn thoát?", "Thông báo!", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            admin f = new admin();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Account_inf f = new Account_inf();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }

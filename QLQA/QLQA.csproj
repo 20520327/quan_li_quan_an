@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account_inf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account_inf.Designer.cs">
+      <DependentUpon>Account_inf.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customtextbox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Customtextbox.Designer.cs">
       <DependentUpon>Customtextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -78,6 +90,12 @@
     <Compile Include="TransolutionPanel.Designer.cs">
       <DependentUpon>TransolutionPanel.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Account_inf.resx">
+      <DependentUpon>Account_inf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +151,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\contract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

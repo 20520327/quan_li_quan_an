@@ -139,6 +139,7 @@ namespace QLQA
             // 
             // Thoat
             // 
+            this.Thoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Thoat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Thoat.Location = new System.Drawing.Point(198, 195);
             this.Thoat.Name = "Thoat";
@@ -161,10 +162,12 @@ namespace QLQA
             // 
             // login
             // 
+            this.AcceptButton = this.Dangnhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QLQA.Properties.Resources.login_backgrounddemo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.Thoat;
             this.ClientSize = new System.Drawing.Size(470, 251);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
@@ -175,7 +178,6 @@ namespace QLQA
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.login_FormClosing);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
