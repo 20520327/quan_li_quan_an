@@ -15,6 +15,7 @@ namespace QLQA
         public Maintable()
         {
             InitializeComponent();
+            Clock.Text = DateTime.Now.ToString();
         }
 
 
@@ -62,6 +63,11 @@ namespace QLQA
             this.Hide();
             f.ShowDialog();
             this.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Clock.Text = DateTime.Now.ToString();
         }
     }
 }

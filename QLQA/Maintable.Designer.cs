@@ -29,6 +29,7 @@ namespace QLQA
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Maintable));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,6 +53,8 @@ namespace QLQA
             this.quảnLíMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bànĂnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Clock = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -111,6 +114,7 @@ namespace QLQA
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.Clock);
             this.panel2.Controls.Add(this.comboBox2);
             this.panel2.Controls.Add(this.listView1);
             this.panel2.Controls.Add(this.button1);
@@ -263,6 +267,23 @@ namespace QLQA
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // Clock
+            // 
+            this.Clock.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Clock.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Clock.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clock.Location = new System.Drawing.Point(199, 13);
+            this.Clock.Name = "Clock";
+            this.Clock.ReadOnly = true;
+            this.Clock.Size = new System.Drawing.Size(171, 22);
+            this.Clock.TabIndex = 7;
+            // 
             // Maintable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -318,5 +339,7 @@ namespace QLQA
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ToolStripMenuItem quảnLíMenuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bànĂnToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox Clock;
     }
 }
