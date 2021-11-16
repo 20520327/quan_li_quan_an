@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQA", "QLQA\QLQA.csproj", "{F82B225B-70CC-4589-B070-A650BD7715AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82B225B-70CC-4589-B070-A650BD7715AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82B225B-70CC-4589-B070-A650BD7715AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82B225B-70CC-4589-B070-A650BD7715AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82B225B-70CC-4589-B070-A650BD7715AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D93F19D0-8F25-4F37-AC08-C90465446B82}
+	EndGlobalSection
+EndGlobal

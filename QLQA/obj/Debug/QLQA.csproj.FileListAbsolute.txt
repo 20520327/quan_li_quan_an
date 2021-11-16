@@ -1,0 +1,12 @@
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\bin\Debug\QLQA.exe.config
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\bin\Debug\QLQA.exe
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\bin\Debug\QLQA.pdb
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.csproj.AssemblyReference.cache
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.login.resources
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.Properties.Resources.resources
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.csproj.GenerateResource.cache
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.csproj.CoreCompileInputs.cache
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.exe
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.pdb
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.Maintable.resources
+C:\bài học UIT\lập trình trực quang\Quanliquanan\DOAN\QLQA\obj\Debug\QLQA.Sign_up.resources
