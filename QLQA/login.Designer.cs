@@ -169,7 +169,6 @@ namespace QLQA
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.Thoat;
             this.ClientSize = new System.Drawing.Size(470, 251);
-            this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

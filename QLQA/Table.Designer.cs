@@ -66,43 +66,49 @@ namespace QLQA
             // 
             this.panel7.Controls.Add(this.dataGridView2);
             this.panel7.Location = new System.Drawing.Point(1, -1);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(593, 439);
+            this.panel7.Size = new System.Drawing.Size(791, 540);
             this.panel7.TabIndex = 2;
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Location = new System.Drawing.Point(4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(587, 433);
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.Size = new System.Drawing.Size(783, 533);
             this.dataGridView2.TabIndex = 0;
             // 
             // panel9
             // 
             this.panel9.Controls.Add(this.ban);
             this.panel9.Controls.Add(this.pictureBox2);
-            this.panel9.Location = new System.Drawing.Point(597, 2);
+            this.panel9.Location = new System.Drawing.Point(796, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(279, 60);
+            this.panel9.Size = new System.Drawing.Size(372, 74);
             this.panel9.TabIndex = 4;
             // 
             // ban
             // 
             this.ban.AutoSize = true;
             this.ban.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ban.Location = new System.Drawing.Point(33, 16);
+            this.ban.Location = new System.Drawing.Point(44, 20);
+            this.ban.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ban.Name = "ban";
-            this.ban.Size = new System.Drawing.Size(70, 25);
+            this.ban.Size = new System.Drawing.Size(88, 32);
             this.ban.TabIndex = 1;
             this.ban.Text = "Bàn ăn";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::QLQA.Properties.Resources.dining_table;
-            this.pictureBox2.Location = new System.Drawing.Point(134, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(179, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(133, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -113,17 +119,19 @@ namespace QLQA
             this.panel8.Controls.Add(this.button2);
             this.panel8.Controls.Add(this.button3);
             this.panel8.Controls.Add(this.button4);
-            this.panel8.Location = new System.Drawing.Point(4, 441);
+            this.panel8.Location = new System.Drawing.Point(5, 543);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(590, 67);
+            this.panel8.Size = new System.Drawing.Size(787, 82);
             this.panel8.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(485, 13);
+            this.button1.Location = new System.Drawing.Point(647, 16);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 40);
+            this.button1.Size = new System.Drawing.Size(125, 49);
             this.button1.TabIndex = 3;
             this.button1.Text = "Xem";
             this.button1.UseVisualStyleBackColor = true;
@@ -131,9 +139,10 @@ namespace QLQA
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(330, 13);
+            this.button2.Location = new System.Drawing.Point(440, 16);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 40);
+            this.button2.Size = new System.Drawing.Size(125, 49);
             this.button2.TabIndex = 2;
             this.button2.Text = "Sửa";
             this.button2.UseVisualStyleBackColor = true;
@@ -141,9 +150,10 @@ namespace QLQA
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(175, 13);
+            this.button3.Location = new System.Drawing.Point(233, 16);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 40);
+            this.button3.Size = new System.Drawing.Size(125, 49);
             this.button3.TabIndex = 1;
             this.button3.Text = "Xoá";
             this.button3.UseVisualStyleBackColor = true;
@@ -151,9 +161,10 @@ namespace QLQA
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(20, 13);
+            this.button4.Location = new System.Drawing.Point(27, 16);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 40);
+            this.button4.Size = new System.Drawing.Size(125, 49);
             this.button4.TabIndex = 0;
             this.button4.Text = "Thêm";
             this.button4.UseVisualStyleBackColor = true;
@@ -164,30 +175,33 @@ namespace QLQA
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.textBox4, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.idtable, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 6);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(8, 7);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(266, 47);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(355, 58);
             this.tableLayoutPanel3.TabIndex = 6;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(3, 21);
+            this.textBox4.Location = new System.Drawing.Point(4, 26);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(260, 24);
+            this.textBox4.Size = new System.Drawing.Size(345, 29);
             this.textBox4.TabIndex = 0;
             // 
             // idtable
             // 
             this.idtable.AutoSize = true;
             this.idtable.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idtable.Location = new System.Drawing.Point(3, 0);
+            this.idtable.Location = new System.Drawing.Point(4, 0);
+            this.idtable.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.idtable.Name = "idtable";
-            this.idtable.Size = new System.Drawing.Size(56, 18);
+            this.idtable.Size = new System.Drawing.Size(71, 22);
             this.idtable.TabIndex = 1;
             this.idtable.Text = "ID bàn:";
             // 
@@ -197,30 +211,33 @@ namespace QLQA
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.tablename, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 56);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(8, 69);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(266, 47);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(355, 58);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(3, 21);
+            this.textBox1.Location = new System.Drawing.Point(4, 26);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 24);
+            this.textBox1.Size = new System.Drawing.Size(345, 29);
             this.textBox1.TabIndex = 0;
             // 
             // tablename
             // 
             this.tablename.AutoSize = true;
             this.tablename.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tablename.Location = new System.Drawing.Point(3, 0);
+            this.tablename.Location = new System.Drawing.Point(4, 0);
+            this.tablename.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tablename.Name = "tablename";
-            this.tablename.Size = new System.Drawing.Size(68, 18);
+            this.tablename.Size = new System.Drawing.Size(87, 22);
             this.tablename.TabIndex = 1;
             this.tablename.Text = "Tên bàn: ";
             // 
@@ -230,30 +247,33 @@ namespace QLQA
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.textBox2, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.status, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 109);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(8, 134);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(266, 47);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(355, 58);
             this.tableLayoutPanel2.TabIndex = 8;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(3, 21);
+            this.textBox2.Location = new System.Drawing.Point(4, 26);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(260, 24);
+            this.textBox2.Size = new System.Drawing.Size(345, 29);
             this.textBox2.TabIndex = 0;
             // 
             // status
             // 
             this.status.AutoSize = true;
             this.status.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.status.Location = new System.Drawing.Point(3, 0);
+            this.status.Location = new System.Drawing.Point(4, 0);
+            this.status.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(82, 18);
+            this.status.Size = new System.Drawing.Size(105, 22);
             this.status.TabIndex = 1;
             this.status.Text = "Trạng thái: ";
             // 
@@ -263,9 +283,10 @@ namespace QLQA
             this.panel1.Controls.Add(this.tableLayoutPanel3);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.tableLayoutPanel1);
-            this.panel1.Location = new System.Drawing.Point(600, 168);
+            this.panel1.Location = new System.Drawing.Point(800, 207);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(276, 257);
+            this.panel1.Size = new System.Drawing.Size(368, 316);
             this.panel1.TabIndex = 9;
             // 
             // note
@@ -273,23 +294,25 @@ namespace QLQA
             this.note.AutoSize = true;
             this.note.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.note.ForeColor = System.Drawing.Color.Tomato;
-            this.note.Location = new System.Drawing.Point(1, 205);
+            this.note.Location = new System.Drawing.Point(1, 252);
+            this.note.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.note.Name = "note";
-            this.note.Size = new System.Drawing.Size(269, 50);
+            this.note.Size = new System.Drawing.Size(341, 64);
             this.note.TabIndex = 9;
             this.note.Text = "*Trạng thái bàn luôn mặc định \r\nlà trống*\r\n";
             // 
             // Table
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(879, 514);
+            this.ClientSize = new System.Drawing.Size(1172, 633);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Table";
