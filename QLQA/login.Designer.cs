@@ -55,9 +55,11 @@ namespace QLQA
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.Thoat);
             this.panel1.Controls.Add(this.Dangnhap);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(452, 235);
+            this.panel1.Size = new System.Drawing.Size(627, 309);
             this.panel1.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -69,21 +71,24 @@ namespace QLQA
             this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.taikhoan, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.password, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(7, 90);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 86);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(436, 100);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(627, 146);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::QLQA.Properties.Resources.question;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(47, 44);
+            this.pictureBox1.Size = new System.Drawing.Size(69, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -92,9 +97,10 @@ namespace QLQA
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox2.Image = global::QLQA.Properties.Resources.hotel_key;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 53);
+            this.pictureBox2.Location = new System.Drawing.Point(4, 77);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(47, 44);
+            this.pictureBox2.Size = new System.Drawing.Size(69, 65);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -102,26 +108,29 @@ namespace QLQA
             // taikhoan
             // 
             this.taikhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taikhoan.Location = new System.Drawing.Point(56, 3);
+            this.taikhoan.Location = new System.Drawing.Point(81, 4);
+            this.taikhoan.Margin = new System.Windows.Forms.Padding(4);
             this.taikhoan.Name = "taikhoan";
-            this.taikhoan.Size = new System.Drawing.Size(377, 26);
+            this.taikhoan.Size = new System.Drawing.Size(501, 30);
             this.taikhoan.TabIndex = 1;
             // 
             // password
             // 
             this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password.Location = new System.Drawing.Point(56, 53);
+            this.password.Location = new System.Drawing.Point(81, 77);
+            this.password.Margin = new System.Windows.Forms.Padding(4);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(377, 26);
+            this.password.Size = new System.Drawing.Size(501, 30);
             this.password.TabIndex = 2;
             this.password.UseSystemPasswordChar = true;
             // 
             // Signup
             // 
             this.Signup.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Signup.Location = new System.Drawing.Point(4, 195);
+            this.Signup.Location = new System.Drawing.Point(0, 236);
+            this.Signup.Margin = new System.Windows.Forms.Padding(4);
             this.Signup.Name = "Signup";
-            this.Signup.Size = new System.Drawing.Size(103, 32);
+            this.Signup.Size = new System.Drawing.Size(137, 39);
             this.Signup.TabIndex = 5;
             this.Signup.Text = "ĐĂNG KÝ";
             this.Signup.UseVisualStyleBackColor = true;
@@ -129,10 +138,12 @@ namespace QLQA
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox3.Image = global::QLQA.Properties.Resources.cooking;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(446, 81);
+            this.pictureBox3.Size = new System.Drawing.Size(627, 86);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -141,9 +152,10 @@ namespace QLQA
             // 
             this.Thoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Thoat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Thoat.Location = new System.Drawing.Point(198, 195);
+            this.Thoat.Location = new System.Drawing.Point(283, 236);
+            this.Thoat.Margin = new System.Windows.Forms.Padding(4);
             this.Thoat.Name = "Thoat";
-            this.Thoat.Size = new System.Drawing.Size(114, 32);
+            this.Thoat.Size = new System.Drawing.Size(152, 39);
             this.Thoat.TabIndex = 3;
             this.Thoat.Text = "THOÁT";
             this.Thoat.UseVisualStyleBackColor = true;
@@ -152,9 +164,10 @@ namespace QLQA
             // Dangnhap
             // 
             this.Dangnhap.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dangnhap.Location = new System.Drawing.Point(318, 195);
+            this.Dangnhap.Location = new System.Drawing.Point(443, 236);
+            this.Dangnhap.Margin = new System.Windows.Forms.Padding(4);
             this.Dangnhap.Name = "Dangnhap";
-            this.Dangnhap.Size = new System.Drawing.Size(128, 32);
+            this.Dangnhap.Size = new System.Drawing.Size(171, 39);
             this.Dangnhap.TabIndex = 2;
             this.Dangnhap.Text = "ĐĂNG NHẬP";
             this.Dangnhap.UseVisualStyleBackColor = true;
@@ -163,15 +176,17 @@ namespace QLQA
             // login
             // 
             this.AcceptButton = this.Dangnhap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QLQA.Properties.Resources.login_backgrounddemo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.Thoat;
-            this.ClientSize = new System.Drawing.Size(470, 251);
+            this.ClientSize = new System.Drawing.Size(627, 309);
+            this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "login";

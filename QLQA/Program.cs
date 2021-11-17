@@ -16,7 +16,7 @@ namespace QLQA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new admin());
+            Application.Run(new login());
         }
     }
 }
