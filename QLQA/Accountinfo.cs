@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QLQA
 {
-    public partial class Account_inf : Form
+    public partial class Accountinfo : Form
     {
-        public Account_inf()
+        public Accountinfo()
         {
             InitializeComponent();
+        }
+
+        private void btupdate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

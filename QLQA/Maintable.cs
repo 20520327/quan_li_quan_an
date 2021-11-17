@@ -43,7 +43,7 @@ namespace QLQA
 
         private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Account_inf f = new Account_inf();
+            Accountinfo f = new Accountinfo();
             this.Hide();
             f.ShowDialog();
             this.Show();
