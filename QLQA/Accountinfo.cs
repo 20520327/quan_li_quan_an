@@ -19,7 +19,12 @@ namespace QLQA
 
         private void btupdate_Click(object sender, EventArgs e)
         {
+            this.Hide();
+        }
 
+        private void btexit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

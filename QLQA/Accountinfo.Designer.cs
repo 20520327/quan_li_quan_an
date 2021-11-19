@@ -80,7 +80,7 @@ namespace QLQA
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(2, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(450, 515);
+            this.panel1.Size = new System.Drawing.Size(452, 515);
             this.panel1.TabIndex = 0;
             // 
             // tableLayoutPanel7
@@ -122,12 +122,13 @@ namespace QLQA
             this.panel4.Controls.Add(this.btexit);
             this.panel4.Location = new System.Drawing.Point(10, 465);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(437, 42);
+            this.panel4.Size = new System.Drawing.Size(434, 42);
             this.panel4.TabIndex = 2;
             // 
             // btupdate
             // 
-            this.btupdate.Location = new System.Drawing.Point(335, 5);
+            this.btupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btupdate.Location = new System.Drawing.Point(329, 5);
             this.btupdate.Name = "btupdate";
             this.btupdate.Size = new System.Drawing.Size(99, 34);
             this.btupdate.TabIndex = 1;
@@ -137,12 +138,14 @@ namespace QLQA
             // 
             // btexit
             // 
+            this.btexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btexit.Location = new System.Drawing.Point(3, 3);
             this.btexit.Name = "btexit";
             this.btexit.Size = new System.Drawing.Size(99, 34);
             this.btexit.TabIndex = 0;
             this.btexit.Text = "Thoát";
             this.btexit.UseVisualStyleBackColor = true;
+            this.btexit.Click += new System.EventHandler(this.btexit_Click);
             // 
             // panel3
             // 
